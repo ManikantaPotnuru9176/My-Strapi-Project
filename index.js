@@ -1,4 +1,4 @@
-fetch("http://localhost:1337/api/products")
+fetch("http://192.168.5.226:1337/api/products")
   .then((response) => response.json())
   .then((data) => {
     const contentDiv = document.getElementById("content");
